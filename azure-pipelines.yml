@@ -6,9 +6,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
-
+pool:  
+  name: SHDC-Linux 
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
