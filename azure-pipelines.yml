@@ -5,7 +5,12 @@
 
 trigger:
 - master
-
+pr:
+  autoCancel: true
+  drafts: true
+  branches:
+    include:
+    - master
 pool:  
   name: SHDC-Linux 
 steps:
